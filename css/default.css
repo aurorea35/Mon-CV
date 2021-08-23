@@ -8,7 +8,12 @@
     font-family: arial;
 }
 
-h1, h1 + p
+h1
+{
+    margin-left: none;
+}
+
+h1,p
 {
     text-align: center;
 }
@@ -20,14 +25,23 @@ body
 
 img {
     float: right;
-    border: 2px solid black;
+    border: 1px solid black;
     box-shadow: 2px 2px 2px black;
+}
+
+.bloc img
+{
+    float: left;
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 section
 {
     display: inline-block;
     vertical-align: top;
-
-
+    width: 15%;
+    margin-right: 4%;
 }
