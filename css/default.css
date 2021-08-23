@@ -8,7 +8,7 @@
     font-family: arial;
 }
 
-h1
+h1, h1 + p
 {
     text-align: center;
 }
@@ -24,4 +24,10 @@ img {
     box-shadow: 2px 2px 2px black;
 }
 
+section
+{
+    display: inline-block;
+    vertical-align: top;
 
+
+}
